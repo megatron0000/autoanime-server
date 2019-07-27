@@ -1,0 +1,25 @@
+{
+  "name": "@baudelaplace/autoanime-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "PORT=8003 node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cheerio": "1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "lowdb": "1.0.0",
+    "morgan": "~1.9.0",
+    "request": "2.83.0",
+    "request-promise-native": "^1.0.5",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "2.0.4"
+  },
+  "devDependencies": {
+  }
+}
